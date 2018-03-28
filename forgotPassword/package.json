@@ -1,0 +1,26 @@
+{
+  "name": "forgotpwd",
+  "version": "1.0.0",
+  "description": "basic forget password link for password reset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "reset",
+    "authentication",
+    "mongodb",
+    "url",
+    "expiry"
+  ],
+  "author": "vinu k",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "node-uuid": "^1.4.8"
+  }
+}
